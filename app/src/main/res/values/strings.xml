@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">2048</string>
+    <string name="title2048">2048</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">424652615304724</string> <string name="fb_login_protocol_scheme">fb424652615304724</string>
+
+
+</resources>

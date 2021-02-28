@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mobile_navigation"
+        app:startDestination="@id/loadingFragment">
+
+    <fragment
+            android:id="@+id/splash_fragment"
+            android:name="com.miss.a2048.game.ui.splash.SplashFragment"
+            android:label="fragment_movie_list"
+             />
+    <fragment
+            android:id="@+id/recordsFragment"
+            android:name="com.miss.a2048.game.ui.records.RecordsFragment"
+            android:label="fragment_records"
+            tools:layout="@layout/fragment_records" />
+    <fragment
+            android:id="@+id/loadingFragment"
+            android:name="com.miss.a2048.game.ui.loading.LoadingFragment"
+            android:label="LoadingFragment" />
+</navigation>
